@@ -37,7 +37,9 @@ const Contact = () => {
         <h3>Send us a message
             <img src={msg_icon} alt=''/>
         </h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor cumque, ut culpa temporibus voluptatem ipsum reprehenderit sequi dolore sint. Totam, voluptatum iusto. Quam voluptatem natus dolor nihil expedita? Modi, expedita.</p>
+        <p>Got a question or feedback? We&apos;d love to hear from you! Send us a message and let&apos;s connect. Your thoughts and suggestions help us improve and serve you better. Don&apos;t hesitate – drop us a line now!
+
+</p>
       
       <ul>
         <li> <img src={mail_icon} alt="" />FIAScuderia@f1stewards.com</li>
