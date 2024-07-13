@@ -1,36 +1,44 @@
 .campus {
-    margin: 50px auto;
-    width: 100%;
+    margin: 80px auto;
+    width: 90%;
     text-align: center;
 }
 
 .gallery {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly with space between them */
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .gallery img {
-    width: calc(20% - 8px); /* Adjust image width and calculate the space between them */
-    margin-right: 8px; /* Space between images */
+    width: calc(25% - 10px); /* Adjust width to account for the gap */
     border-radius: 10px;
+    margin-right: 10px; /* Add a gap between images */
 }
 
 .gallery img:last-child {
-    margin-right: 0; /* Remove margin from the last image to prevent extra space */
+    margin-right: 0; /* Remove the margin from the last image */
 }
 
-.gallery button{
-    width: 100%; /* Make button full width */
-    margin-top: 20px; 
+.gallery button {
+    width: 100%;
+    margin-top: 20px;
 }
 
-@media (max-width:800px){
-    .campus{
-        flex-wrap: wrap;
-    }
-    .gallery img{
+@media (max-width: 800px) {
+    .gallery img {
         width: 48%;
         margin-bottom: 25px;
+        margin-right: 0; /* Remove right margin for mobile view */
+    }
+}
+
+@media (max-width: 640px) {
+    .gallery img {
+        width: 48%;
+        margin-bottom: 25px;
+        margin-right: 0; /* Remove right margin for mobile view */
     }
 }

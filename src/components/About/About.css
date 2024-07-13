@@ -27,7 +27,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    
+
   }
 
 .about-right h2{
@@ -51,5 +51,17 @@
     }
     .about-right{
       flex-basis: 100%;
+    }
+  }
+  @media (max-width:640px){
+    .about-right{
+      font-size: 16px;
+      /* border: 2px solid red; */
+      width: 300px;
+      display: inline;
+      margin-top: -10px;
+    }
+    .about-right h2{
+      margin-left: 60px;
     }
   }
