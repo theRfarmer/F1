@@ -29,6 +29,8 @@ overflow: hidden;
     width: 405.9%;
     transition: 0.3s;
     transform: translateX(-25%);
+    scroll-snap-type: x mandatory; /* Snap to each slide */
+    -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
 }
 
 .slider ul li{
@@ -78,11 +80,11 @@ overflow: hidden;
     padding: 10px;
    }
    .slide img{
-      width: 300px;
+      width: 50px;
       border: 3px solid #212EA0;
    }
 }
-@media (max-width:600px){
+@media (max-width:640px){
     .team-info{
         display: block;
         margin-bottom: 10px;
@@ -99,15 +101,16 @@ overflow: hidden;
     display: flex;
     width: 1300%;
     transition: 0.3s;
-    transform: translateX(-25%);
+    transform: translateX(-20%);
 }
 .slider img{
     border-radius: 10px;
-    width: 285px;
-    height: 160px;
-    margin-left: 10px;
+    width: 200px;
+    height: 120px;
+    margin-top: 14px;
+    margin-right:auto ;
 }
 .slide{
-    height:340px;
+    height:310px;
 }
 }
